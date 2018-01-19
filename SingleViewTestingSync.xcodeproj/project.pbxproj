@@ -13,6 +13,10 @@
 		C234B67A2011FDC3005128F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C234B6782011FDC3005128F8 /* Main.storyboard */; };
 		C234B6862011FDC4005128F8 /* SingleViewTestingSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6852011FDC4005128F8 /* SingleViewTestingSyncTests.swift */; };
 		C234B6912011FDC4005128F8 /* SingleViewTestingSyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6902011FDC4005128F8 /* SingleViewTestingSyncUITests.swift */; };
+		C234B6A420120062005128F8 /* oversikt.csv in Resources */ = {isa = PBXBuildFile; fileRef = C234B6A320120062005128F8 /* oversikt.csv */; };
+		C234B6A720120301005128F8 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234B6A620120301005128F8 /* CloudKit.framework */; };
+		C234B6AA201203E2005128F8 /* PlayerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6A9201203E2005128F8 /* PlayerDataSource.swift */; };
+		C234B6AC20120504005128F8 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = C234B6AB20120504005128F8 /* Model */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		C234B68C2011FDC4005128F8 /* SingleViewTestingSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleViewTestingSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C234B6902011FDC4005128F8 /* SingleViewTestingSyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewTestingSyncUITests.swift; sourceTree = "<group>"; };
 		C234B6922011FDC4005128F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C234B6A320120062005128F8 /* oversikt.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = oversikt.csv; sourceTree = "<group>"; };
+		C234B6A620120301005128F8 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		C234B6A9201203E2005128F8 /* PlayerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDataSource.swift; sourceTree = "<group>"; };
+		C234B6AB20120504005128F8 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C234B6A720120301005128F8 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +89,7 @@
 				C234B6842011FDC4005128F8 /* SingleViewTestingSyncTests */,
 				C234B68F2011FDC4005128F8 /* SingleViewTestingSyncUITests */,
 				C234B6702011FDC3005128F8 /* Products */,
+				C234B6A520120300005128F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +106,9 @@
 		C234B6712011FDC3005128F8 /* SingleViewTestingSync */ = {
 			isa = PBXGroup;
 			children = (
+				C234B6AB20120504005128F8 /* Model */,
+				C234B6A8201203BA005128F8 /* DataResource */,
+				C234B6A02011FFFD005128F8 /* SupportingFiles */,
 				C234B6722011FDC3005128F8 /* AppDelegate.swift */,
 				C234B6742011FDC3005128F8 /* ViewController.swift */,
 				C234B6762011FDC3005128F8 /* Assets.xcassets */,
@@ -122,6 +135,30 @@
 				C234B6922011FDC4005128F8 /* Info.plist */,
 			);
 			path = SingleViewTestingSyncUITests;
+			sourceTree = "<group>";
+		};
+		C234B6A02011FFFD005128F8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C234B6A320120062005128F8 /* oversikt.csv */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C234B6A520120300005128F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C234B6A620120301005128F8 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C234B6A8201203BA005128F8 /* DataResource */ = {
+			isa = PBXGroup;
+			children = (
+				C234B6A9201203E2005128F8 /* PlayerDataSource.swift */,
+			);
+			path = DataResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +270,8 @@
 			files = (
 				C234B6772011FDC3005128F8 /* Assets.xcassets in Resources */,
 				C234B67A2011FDC3005128F8 /* Main.storyboard in Resources */,
+				C234B6AC20120504005128F8 /* Model in Resources */,
+				C234B6A420120062005128F8 /* oversikt.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C234B6752011FDC3005128F8 /* ViewController.swift in Sources */,
+				C234B6AA201203E2005128F8 /* PlayerDataSource.swift in Sources */,
 				C234B6732011FDC3005128F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,8 +7,11 @@
 //
 
 import Cocoa
+import CloudKit
 
 class ViewController: NSViewController {
+    
+    let playerDataSource = PlayerDataSource.sharedInstance
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +23,10 @@ class ViewController: NSViewController {
         didSet {
         // Update the view, if already loaded.
         }
+    }
+    
+    func tryGettingDataFromCloud() {
+        
     }
 
 
