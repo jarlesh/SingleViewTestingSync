@@ -710,14 +710,14 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vXC-Bd-LTH">
-                                <rect key="frame" x="1017" y="547" width="142" height="32"/>
+                                <rect key="frame" x="1017" y="442" width="142" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Sync iCloud" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="3hL-bF-5zN">
+                                <buttonCell key="cell" type="push" title="Save to iCloud" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="3hL-bF-5zN">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="syncIcloudButtonClicked:" target="XfG-lQ-9wD" id="VhW-eX-tjj"/>
+                                    <action selector="loadFromCloudKitButtonClicked:" target="XfG-lQ-9wD" id="VhW-eX-tjj"/>
                                 </connections>
                             </button>
                             <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7b-wG-GMq">
@@ -990,14 +990,38 @@
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BQI-m1-2eo">
                                 <rect key="frame" x="1017" y="520" width="142" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Load from file" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="z5C-Fb-EEJ">
+                                <buttonCell key="cell" type="push" title="Load from file" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="z5C-Fb-EEJ">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tKK-if-JHb">
+                                <rect key="frame" x="1017" y="416" width="142" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Delete iCloud" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="brh-fC-lon">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <connections>
+                                        <action selector="loadFromCloudKitButtonClicked:" target="XfG-lQ-9wD" id="T2A-Mr-qtE"/>
+                                    </connections>
+                                </buttonCell>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="seG-hj-tnN">
+                                <rect key="frame" x="1017" y="468" width="142" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Load from iCloud" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SgU-uD-GBs">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="loadFromCloudKitButtonClicked:" target="XfG-lQ-9wD" id="hIC-0r-vas"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="deleteIcloudButton" destination="tKK-if-JHb" id="eOY-lR-4QL"/>
+                        <outlet property="deleteIcloudButtonClicked" destination="tKK-if-JHb" id="HwS-7o-Ra4"/>
                         <outlet property="playersCloudKitScrollView" destination="r7b-wG-GMq" id="PwV-5m-RnW"/>
                         <outlet property="playersTableView" destination="5kT-rN-QV5" id="JDq-KC-ve9"/>
                         <outlet property="syncIcloudButton" destination="vXC-Bd-LTH" id="e8r-XJ-D8b"/>

@@ -12,6 +12,7 @@ import CloudKit
 class ViewController: NSViewController {
     
     @IBOutlet weak var syncIcloudButton: NSButton!
+    @IBOutlet weak var deleteIcloudButton: NSButton!
     @IBOutlet weak var playersTableView: NSTableView!
     @IBOutlet weak var playersCloudKitScrollView: NSScrollView!
     let dataSource = DataSourceManager.sharedInstance
@@ -30,9 +31,18 @@ class ViewController: NSViewController {
             print("representedObject")
         }
     }
+    @IBAction func loadFromCloudKitButtonClicked(_ sender: Any) {
+        dataSource.loadDataFromCloudKit()
+        playersTableView.reloadData()
+    }
     
+    @IBAction func deleteIcloudButtonClicked(_ sender: NSButton) {
+        dataSource.deleteCloudKitRecords()
+        playersTableView.reloadData()
+    }
     @IBAction func syncIcloudButtonClicked(_ sender: NSButton) {
         dataSource.syncPlayersToIcloud()
+        playersTableView.reloadData()
     }
 }
 
@@ -58,7 +68,6 @@ extension ViewController: NSTableViewDelegate {
         if tableColumn == tableView.tableColumns[0] {
             cellIdentifier = "nummerId"
             cellText = String(dataSource.playerDataSource.players[row].number)
-            print("\(cellText)")
         }
         else if tableColumn == tableView.tableColumns[1] {
             cellIdentifier = "navnId"
@@ -82,7 +91,6 @@ extension ViewController: NSTableViewDelegate {
         }
         else if tableColumn == tableView.tableColumns[6] {
             cellIdentifier = "playerActiveCheckBox"
-            print("halla balla")
             cellText = dataSource.playerDataSource.players[row].guardian2!.phone!
         }
         
