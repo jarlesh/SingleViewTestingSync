@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C222792520123335008C53DB /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C222792420123335008C53DB /* CloudKit.framework */; };
+		C222792F201283DF008C53DB /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227926201283DF008C53DB /* Statistics.swift */; };
+		C2227930201283DF008C53DB /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227927201283DF008C53DB /* Match.swift */; };
+		C2227931201283DF008C53DB /* Turnering.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227928201283DF008C53DB /* Turnering.swift */; };
+		C2227932201283DF008C53DB /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227929201283DF008C53DB /* Team.swift */; };
+		C2227933201283DF008C53DB /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222792A201283DF008C53DB /* Practice.swift */; };
+		C2227934201283DF008C53DB /* LocalTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222792B201283DF008C53DB /* LocalTeam.swift */; };
+		C2227935201283DF008C53DB /* MatchOfficial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222792C201283DF008C53DB /* MatchOfficial.swift */; };
+		C2227936201283DF008C53DB /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222792D201283DF008C53DB /* Stopwatch.swift */; };
+		C2227937201283DF008C53DB /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222792E201283DF008C53DB /* Trainer.swift */; };
+		C222793C201283ED008C53DB /* TeamDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227938201283ED008C53DB /* TeamDataSource.swift */; };
+		C222793D201283ED008C53DB /* DataSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227939201283ED008C53DB /* DataSourceManager.swift */; };
+		C222793E201283ED008C53DB /* TrainerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222793A201283ED008C53DB /* TrainerDataSource.swift */; };
+		C222793F201283ED008C53DB /* MatchDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222793B201283ED008C53DB /* MatchDataSource.swift */; };
 		C234B6732011FDC3005128F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6722011FDC3005128F8 /* AppDelegate.swift */; };
 		C234B6752011FDC3005128F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6742011FDC3005128F8 /* ViewController.swift */; };
 		C234B6772011FDC3005128F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C234B6762011FDC3005128F8 /* Assets.xcassets */; };
@@ -14,9 +28,13 @@
 		C234B6862011FDC4005128F8 /* SingleViewTestingSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6852011FDC4005128F8 /* SingleViewTestingSyncTests.swift */; };
 		C234B6912011FDC4005128F8 /* SingleViewTestingSyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6902011FDC4005128F8 /* SingleViewTestingSyncUITests.swift */; };
 		C234B6A420120062005128F8 /* oversikt.csv in Resources */ = {isa = PBXBuildFile; fileRef = C234B6A320120062005128F8 /* oversikt.csv */; };
-		C234B6A720120301005128F8 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C234B6A620120301005128F8 /* CloudKit.framework */; };
 		C234B6AA201203E2005128F8 /* PlayerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6A9201203E2005128F8 /* PlayerDataSource.swift */; };
-		C234B6AC20120504005128F8 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = C234B6AB20120504005128F8 /* Model */; };
+		C234B6B1201205D1005128F8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6AE201205D1005128F8 /* Player.swift */; };
+		C234B6B2201205D1005128F8 /* Guardian.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6AF201205D1005128F8 /* Guardian.swift */; };
+		C234B6B3201205D1005128F8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6B0201205D1005128F8 /* Person.swift */; };
+		C234B6B5201205ED005128F8 /* FileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6B4201205ED005128F8 /* FileDataSource.swift */; };
+		C234B6B720120612005128F8 /* GuardianDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6B620120612005128F8 /* GuardianDataSource.swift */; };
+		C234B6B92012065D005128F8 /* CloudKitDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6B82012065D005128F8 /* CloudKitDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +55,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C222792420123335008C53DB /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		C2227926201283DF008C53DB /* Statistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		C2227927201283DF008C53DB /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		C2227928201283DF008C53DB /* Turnering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turnering.swift; sourceTree = "<group>"; };
+		C2227929201283DF008C53DB /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		C222792A201283DF008C53DB /* Practice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		C222792B201283DF008C53DB /* LocalTeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalTeam.swift; sourceTree = "<group>"; };
+		C222792C201283DF008C53DB /* MatchOfficial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchOfficial.swift; sourceTree = "<group>"; };
+		C222792D201283DF008C53DB /* Stopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		C222792E201283DF008C53DB /* Trainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trainer.swift; sourceTree = "<group>"; };
+		C2227938201283ED008C53DB /* TeamDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDataSource.swift; sourceTree = "<group>"; };
+		C2227939201283ED008C53DB /* DataSourceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceManager.swift; sourceTree = "<group>"; };
+		C222793A201283ED008C53DB /* TrainerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainerDataSource.swift; sourceTree = "<group>"; };
+		C222793B201283ED008C53DB /* MatchDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchDataSource.swift; sourceTree = "<group>"; };
 		C234B66F2011FDC3005128F8 /* SingleViewTestingSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleViewTestingSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C234B6722011FDC3005128F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C234B6742011FDC3005128F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,9 +83,13 @@
 		C234B6902011FDC4005128F8 /* SingleViewTestingSyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewTestingSyncUITests.swift; sourceTree = "<group>"; };
 		C234B6922011FDC4005128F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C234B6A320120062005128F8 /* oversikt.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = oversikt.csv; sourceTree = "<group>"; };
-		C234B6A620120301005128F8 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		C234B6A9201203E2005128F8 /* PlayerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDataSource.swift; sourceTree = "<group>"; };
-		C234B6AB20120504005128F8 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		C234B6AE201205D1005128F8 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = SingleViewTestingSync/Model/Player.swift; sourceTree = SOURCE_ROOT; };
+		C234B6AF201205D1005128F8 /* Guardian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Guardian.swift; path = SingleViewTestingSync/Model/Guardian.swift; sourceTree = SOURCE_ROOT; };
+		C234B6B0201205D1005128F8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = SingleViewTestingSync/Model/Person.swift; sourceTree = SOURCE_ROOT; };
+		C234B6B4201205ED005128F8 /* FileDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDataSource.swift; sourceTree = "<group>"; };
+		C234B6B620120612005128F8 /* GuardianDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuardianDataSource.swift; path = SingleViewTestingSync/DataResource/GuardianDataSource.swift; sourceTree = SOURCE_ROOT; };
+		C234B6B82012065D005128F8 /* CloudKitDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C234B6A720120301005128F8 /* CloudKit.framework in Frameworks */,
+				C222792520123335008C53DB /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +118,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C222794020128443008C53DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C234B6742011FDC3005128F8 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		C234B6662011FDC3005128F8 = {
 			isa = PBXGroup;
 			children = (
@@ -106,11 +150,10 @@
 		C234B6712011FDC3005128F8 /* SingleViewTestingSync */ = {
 			isa = PBXGroup;
 			children = (
-				C234B6AB20120504005128F8 /* Model */,
 				C234B6A8201203BA005128F8 /* DataResource */,
+				C234B6AD201205BA005128F8 /* Model */,
+				C222794020128443008C53DB /* ViewController */,
 				C234B6A02011FFFD005128F8 /* SupportingFiles */,
-				C234B6722011FDC3005128F8 /* AppDelegate.swift */,
-				C234B6742011FDC3005128F8 /* ViewController.swift */,
 				C234B6762011FDC3005128F8 /* Assets.xcassets */,
 				C234B6782011FDC3005128F8 /* Main.storyboard */,
 				C234B67B2011FDC3005128F8 /* Info.plist */,
@@ -140,6 +183,7 @@
 		C234B6A02011FFFD005128F8 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				C234B6722011FDC3005128F8 /* AppDelegate.swift */,
 				C234B6A320120062005128F8 /* oversikt.csv */,
 			);
 			path = SupportingFiles;
@@ -148,7 +192,7 @@
 		C234B6A520120300005128F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C234B6A620120301005128F8 /* CloudKit.framework */,
+				C222792420123335008C53DB /* CloudKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,10 +200,38 @@
 		C234B6A8201203BA005128F8 /* DataResource */ = {
 			isa = PBXGroup;
 			children = (
+				C2227939201283ED008C53DB /* DataSourceManager.swift */,
+				C222793B201283ED008C53DB /* MatchDataSource.swift */,
+				C2227938201283ED008C53DB /* TeamDataSource.swift */,
+				C222793A201283ED008C53DB /* TrainerDataSource.swift */,
+				C234B6B82012065D005128F8 /* CloudKitDataSource.swift */,
+				C234B6B620120612005128F8 /* GuardianDataSource.swift */,
+				C234B6B4201205ED005128F8 /* FileDataSource.swift */,
 				C234B6A9201203E2005128F8 /* PlayerDataSource.swift */,
 			);
 			path = DataResource;
 			sourceTree = "<group>";
+		};
+		C234B6AD201205BA005128F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C222792B201283DF008C53DB /* LocalTeam.swift */,
+				C2227927201283DF008C53DB /* Match.swift */,
+				C222792C201283DF008C53DB /* MatchOfficial.swift */,
+				C222792A201283DF008C53DB /* Practice.swift */,
+				C2227926201283DF008C53DB /* Statistics.swift */,
+				C222792D201283DF008C53DB /* Stopwatch.swift */,
+				C2227929201283DF008C53DB /* Team.swift */,
+				C222792E201283DF008C53DB /* Trainer.swift */,
+				C2227928201283DF008C53DB /* Turnering.swift */,
+				C234B6AF201205D1005128F8 /* Guardian.swift */,
+				C234B6B0201205D1005128F8 /* Person.swift */,
+				C234B6AE201205D1005128F8 /* Player.swift */,
+			);
+			name = Model;
+			path = SingleViewTestingSync/Model;
+			sourceTree = SOURCE_ROOT;
+			usesTabs = 0;
 		};
 /* End PBXGroup section */
 
@@ -230,6 +302,17 @@
 					C234B66E2011FDC3005128F8 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					C234B6802011FDC4005128F8 = {
 						CreatedOnToolsVersion = 9.2;
@@ -270,7 +353,6 @@
 			files = (
 				C234B6772011FDC3005128F8 /* Assets.xcassets in Resources */,
 				C234B67A2011FDC3005128F8 /* Main.storyboard in Resources */,
-				C234B6AC20120504005128F8 /* Model in Resources */,
 				C234B6A420120062005128F8 /* oversikt.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,9 +378,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C222793F201283ED008C53DB /* MatchDataSource.swift in Sources */,
+				C2227931201283DF008C53DB /* Turnering.swift in Sources */,
+				C234B6B3201205D1005128F8 /* Person.swift in Sources */,
+				C2227933201283DF008C53DB /* Practice.swift in Sources */,
+				C2227932201283DF008C53DB /* Team.swift in Sources */,
+				C222793D201283ED008C53DB /* DataSourceManager.swift in Sources */,
+				C222793C201283ED008C53DB /* TeamDataSource.swift in Sources */,
+				C234B6B720120612005128F8 /* GuardianDataSource.swift in Sources */,
+				C2227936201283DF008C53DB /* Stopwatch.swift in Sources */,
+				C234B6B1201205D1005128F8 /* Player.swift in Sources */,
 				C234B6752011FDC3005128F8 /* ViewController.swift in Sources */,
+				C234B6B5201205ED005128F8 /* FileDataSource.swift in Sources */,
+				C2227937201283DF008C53DB /* Trainer.swift in Sources */,
+				C2227935201283DF008C53DB /* MatchOfficial.swift in Sources */,
+				C234B6B2201205D1005128F8 /* Guardian.swift in Sources */,
 				C234B6AA201203E2005128F8 /* PlayerDataSource.swift in Sources */,
 				C234B6732011FDC3005128F8 /* AppDelegate.swift in Sources */,
+				C222793E201283ED008C53DB /* TrainerDataSource.swift in Sources */,
+				C2227934201283DF008C53DB /* LocalTeam.swift in Sources */,
+				C2227930201283DF008C53DB /* Match.swift in Sources */,
+				C222792F201283DF008C53DB /* Statistics.swift in Sources */,
+				C234B6B92012065D005128F8 /* CloudKitDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +557,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SingleViewTestingSync/SingleViewTestingSync.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = YUCNWRRKS3;
@@ -463,6 +565,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.SingleViewTestingSync.SingleViewTestingSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -472,6 +575,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SingleViewTestingSync/SingleViewTestingSync.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = YUCNWRRKS3;
@@ -479,6 +583,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.SingleViewTestingSync.SingleViewTestingSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
