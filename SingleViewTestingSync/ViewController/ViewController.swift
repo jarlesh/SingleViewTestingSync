@@ -36,6 +36,10 @@ class ViewController: NSViewController {
         playersTableView.reloadData()
     }
     
+    @IBAction func loadFromFileButtonClicked(_ sender: Any) {
+        dataSource.loadDataFromFile()
+        playersTableView.reloadData()
+    }
     @IBAction func deleteIcloudButtonClicked(_ sender: NSButton) {
         dataSource.deleteCloudKitRecords()
         playersTableView.reloadData()
