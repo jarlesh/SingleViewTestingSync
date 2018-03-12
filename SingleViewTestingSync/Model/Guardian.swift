@@ -15,6 +15,7 @@ class Guardian: Person {
     var email: String?  // { get { return "" } set {} }
     var phone: String?
     var address: String?
+    var ckRecordID: CKRecordID?
     
     // MARK: Initialization
     init(firstName: String, lastName: String, email: String, phone: String, address: String) {

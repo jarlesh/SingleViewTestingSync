@@ -6,6 +6,7 @@
 //  Copyright © 2016 Jarle Heldstab. All rights reserved.
 //
 
+import CloudKit
 import Foundation
 
 class Player: Person, Comparable {
@@ -25,12 +26,14 @@ class Player: Person, Comparable {
     
 
     // MARK: Properties
-    var number: Int
+    var number = 2
     var playing: Bool
     
     var guardian1: Guardian?
     var guardian2: Guardian?
     
+    var teamReference = 0
+    private (set) var cloudKitRecord: CKRecord
     
     // MARK: Initialization
     init(number: Int, firstName: String, lastName: String) {
@@ -48,6 +51,16 @@ class Player: Person, Comparable {
         super.init(firstName: firstName, lastName: lastName)
     }
     
+    // MARK: New
+    init(teamReference: Int, firstName: String, lastName: String, guardian1: Guardian, guardian2: Guardian?) {
+        self.teamReference = teamReference
+        self.playing = false
+        self.guardian1 = guardian1
+        self.guardian2 = guardian2
+        
+        super.init(firstName: firstName, lastName: lastName)
+    }
+    
     public func has(guardian: Guardian) {
         self.guardian1 = guardian
     }
@@ -57,3 +70,4 @@ class Player: Person, Comparable {
         self.guardian2 = guardian2
     }
 }
+

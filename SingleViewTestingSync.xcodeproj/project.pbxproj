@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C20F17FB204A05A7007F4208 /* kamper.csv in Resources */ = {isa = PBXBuildFile; fileRef = C20F17FA204A05A7007F4208 /* kamper.csv */; };
+		C20F17FD204A0A8D007F4208 /* lag.csv in Resources */ = {isa = PBXBuildFile; fileRef = C20F17FC204A0A8D007F4208 /* lag.csv */; };
+		C20F17FF204A0DDA007F4208 /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F17FE204A0DDA007F4208 /* Tournament.swift */; };
+		C20F1801204B44EA007F4208 /* TournamentDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F1800204B44EA007F4208 /* TournamentDataSource.swift */; };
+		C20F1803204B479F007F4208 /* turneringer.csv in Resources */ = {isa = PBXBuildFile; fileRef = C20F1802204B479F007F4208 /* turneringer.csv */; };
+		C2106A432054893500ACC4C0 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2106A422054893500ACC4C0 /* Test.swift */; };
+		C2106A452054895E00ACC4C0 /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2106A442054895E00ACC4C0 /* Test2.swift */; };
+		C2183837204DA3340030FEFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2183836204DA3340030FEFB /* Constants.swift */; };
+		C2183839204DA3B50030FEFB /* GuardianDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2183838204DA3B50030FEFB /* GuardianDataSource.swift */; };
 		C222792520123335008C53DB /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C222792420123335008C53DB /* CloudKit.framework */; };
 		C222792F201283DF008C53DB /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227926201283DF008C53DB /* Statistics.swift */; };
 		C2227930201283DF008C53DB /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227927201283DF008C53DB /* Match.swift */; };
-		C2227931201283DF008C53DB /* Turnering.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227928201283DF008C53DB /* Turnering.swift */; };
 		C2227932201283DF008C53DB /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227929201283DF008C53DB /* Team.swift */; };
 		C2227933201283DF008C53DB /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222792A201283DF008C53DB /* Practice.swift */; };
-		C2227934201283DF008C53DB /* LocalTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222792B201283DF008C53DB /* LocalTeam.swift */; };
 		C2227935201283DF008C53DB /* MatchOfficial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222792C201283DF008C53DB /* MatchOfficial.swift */; };
-		C2227936201283DF008C53DB /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222792D201283DF008C53DB /* Stopwatch.swift */; };
-		C2227937201283DF008C53DB /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222792E201283DF008C53DB /* Trainer.swift */; };
 		C222793C201283ED008C53DB /* TeamDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227938201283ED008C53DB /* TeamDataSource.swift */; };
 		C222793D201283ED008C53DB /* DataSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227939201283ED008C53DB /* DataSourceManager.swift */; };
 		C222793E201283ED008C53DB /* TrainerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222793A201283ED008C53DB /* TrainerDataSource.swift */; };
@@ -27,13 +32,9 @@
 		C234B67A2011FDC3005128F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C234B6782011FDC3005128F8 /* Main.storyboard */; };
 		C234B6862011FDC4005128F8 /* SingleViewTestingSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6852011FDC4005128F8 /* SingleViewTestingSyncTests.swift */; };
 		C234B6912011FDC4005128F8 /* SingleViewTestingSyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6902011FDC4005128F8 /* SingleViewTestingSyncUITests.swift */; };
-		C234B6A420120062005128F8 /* oversikt.csv in Resources */ = {isa = PBXBuildFile; fileRef = C234B6A320120062005128F8 /* oversikt.csv */; };
+		C234B6A420120062005128F8 /* spillere.csv in Resources */ = {isa = PBXBuildFile; fileRef = C234B6A320120062005128F8 /* spillere.csv */; };
 		C234B6AA201203E2005128F8 /* PlayerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6A9201203E2005128F8 /* PlayerDataSource.swift */; };
-		C234B6B1201205D1005128F8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6AE201205D1005128F8 /* Player.swift */; };
-		C234B6B2201205D1005128F8 /* Guardian.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6AF201205D1005128F8 /* Guardian.swift */; };
-		C234B6B3201205D1005128F8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6B0201205D1005128F8 /* Person.swift */; };
-		C234B6B5201205ED005128F8 /* FileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6B4201205ED005128F8 /* FileDataSource.swift */; };
-		C234B6B720120612005128F8 /* GuardianDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6B620120612005128F8 /* GuardianDataSource.swift */; };
+		C234B6B5201205ED005128F8 /* FileReaderDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6B4201205ED005128F8 /* FileReaderDataSource.swift */; };
 		C234B6B92012065D005128F8 /* CloudKitDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6B82012065D005128F8 /* CloudKitDataSource.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,16 +56,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C20F17FA204A05A7007F4208 /* kamper.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kamper.csv; sourceTree = "<group>"; };
+		C20F17FC204A0A8D007F4208 /* lag.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lag.csv; sourceTree = "<group>"; };
+		C20F17FE204A0DDA007F4208 /* Tournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tournament.swift; sourceTree = "<group>"; };
+		C20F1800204B44EA007F4208 /* TournamentDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentDataSource.swift; sourceTree = "<group>"; };
+		C20F1802204B479F007F4208 /* turneringer.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = turneringer.csv; sourceTree = "<group>"; };
+		C2106A422054893500ACC4C0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		C2106A442054895E00ACC4C0 /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
+		C2183836204DA3340030FEFB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C2183838204DA3B50030FEFB /* GuardianDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuardianDataSource.swift; sourceTree = "<group>"; };
 		C222792420123335008C53DB /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		C2227926201283DF008C53DB /* Statistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
 		C2227927201283DF008C53DB /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
-		C2227928201283DF008C53DB /* Turnering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turnering.swift; sourceTree = "<group>"; };
 		C2227929201283DF008C53DB /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		C222792A201283DF008C53DB /* Practice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
-		C222792B201283DF008C53DB /* LocalTeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalTeam.swift; sourceTree = "<group>"; };
 		C222792C201283DF008C53DB /* MatchOfficial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchOfficial.swift; sourceTree = "<group>"; };
-		C222792D201283DF008C53DB /* Stopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
-		C222792E201283DF008C53DB /* Trainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trainer.swift; sourceTree = "<group>"; };
 		C2227938201283ED008C53DB /* TeamDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDataSource.swift; sourceTree = "<group>"; };
 		C2227939201283ED008C53DB /* DataSourceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceManager.swift; sourceTree = "<group>"; };
 		C222793A201283ED008C53DB /* TrainerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainerDataSource.swift; sourceTree = "<group>"; };
@@ -82,13 +88,9 @@
 		C234B68C2011FDC4005128F8 /* SingleViewTestingSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleViewTestingSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C234B6902011FDC4005128F8 /* SingleViewTestingSyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewTestingSyncUITests.swift; sourceTree = "<group>"; };
 		C234B6922011FDC4005128F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C234B6A320120062005128F8 /* oversikt.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = oversikt.csv; sourceTree = "<group>"; };
+		C234B6A320120062005128F8 /* spillere.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spillere.csv; sourceTree = "<group>"; };
 		C234B6A9201203E2005128F8 /* PlayerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDataSource.swift; sourceTree = "<group>"; };
-		C234B6AE201205D1005128F8 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = SingleViewTestingSync/Model/Player.swift; sourceTree = SOURCE_ROOT; };
-		C234B6AF201205D1005128F8 /* Guardian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Guardian.swift; path = SingleViewTestingSync/Model/Guardian.swift; sourceTree = SOURCE_ROOT; };
-		C234B6B0201205D1005128F8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = SingleViewTestingSync/Model/Person.swift; sourceTree = SOURCE_ROOT; };
-		C234B6B4201205ED005128F8 /* FileDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDataSource.swift; sourceTree = "<group>"; };
-		C234B6B620120612005128F8 /* GuardianDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuardianDataSource.swift; path = SingleViewTestingSync/DataResource/GuardianDataSource.swift; sourceTree = SOURCE_ROOT; };
+		C234B6B4201205ED005128F8 /* FileReaderDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReaderDataSource.swift; sourceTree = "<group>"; };
 		C234B6B82012065D005128F8 /* CloudKitDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudKitDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,10 +120,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2183835204DA3190030FEFB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C2183836204DA3340030FEFB /* Constants.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		C222794020128443008C53DB /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				C234B6742011FDC3005128F8 /* ViewController.swift */,
+				C2106A422054893500ACC4C0 /* Test.swift */,
+				C2106A442054895E00ACC4C0 /* Test2.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -150,8 +162,9 @@
 		C234B6712011FDC3005128F8 /* SingleViewTestingSync */ = {
 			isa = PBXGroup;
 			children = (
-				C234B6A8201203BA005128F8 /* DataResource */,
+				C234B6A8201203BA005128F8 /* DataResources */,
 				C234B6AD201205BA005128F8 /* Model */,
+				C2183835204DA3190030FEFB /* Shared */,
 				C222794020128443008C53DB /* ViewController */,
 				C234B6A02011FFFD005128F8 /* SupportingFiles */,
 				C234B6762011FDC3005128F8 /* Assets.xcassets */,
@@ -184,7 +197,10 @@
 			isa = PBXGroup;
 			children = (
 				C234B6722011FDC3005128F8 /* AppDelegate.swift */,
-				C234B6A320120062005128F8 /* oversikt.csv */,
+				C20F17FA204A05A7007F4208 /* kamper.csv */,
+				C20F17FC204A0A8D007F4208 /* lag.csv */,
+				C234B6A320120062005128F8 /* spillere.csv */,
+				C20F1802204B479F007F4208 /* turneringer.csv */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -197,36 +213,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C234B6A8201203BA005128F8 /* DataResource */ = {
+		C234B6A8201203BA005128F8 /* DataResources */ = {
 			isa = PBXGroup;
 			children = (
-				C2227939201283ED008C53DB /* DataSourceManager.swift */,
-				C222793B201283ED008C53DB /* MatchDataSource.swift */,
-				C2227938201283ED008C53DB /* TeamDataSource.swift */,
-				C222793A201283ED008C53DB /* TrainerDataSource.swift */,
 				C234B6B82012065D005128F8 /* CloudKitDataSource.swift */,
-				C234B6B620120612005128F8 /* GuardianDataSource.swift */,
-				C234B6B4201205ED005128F8 /* FileDataSource.swift */,
+				C2227939201283ED008C53DB /* DataSourceManager.swift */,
+				C234B6B4201205ED005128F8 /* FileReaderDataSource.swift */,
+				C2183838204DA3B50030FEFB /* GuardianDataSource.swift */,
+				C222793B201283ED008C53DB /* MatchDataSource.swift */,
 				C234B6A9201203E2005128F8 /* PlayerDataSource.swift */,
+				C2227938201283ED008C53DB /* TeamDataSource.swift */,
+				C20F1800204B44EA007F4208 /* TournamentDataSource.swift */,
+				C222793A201283ED008C53DB /* TrainerDataSource.swift */,
 			);
-			path = DataResource;
+			path = DataResources;
 			sourceTree = "<group>";
 		};
 		C234B6AD201205BA005128F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C222792B201283DF008C53DB /* LocalTeam.swift */,
 				C2227927201283DF008C53DB /* Match.swift */,
 				C222792C201283DF008C53DB /* MatchOfficial.swift */,
 				C222792A201283DF008C53DB /* Practice.swift */,
 				C2227926201283DF008C53DB /* Statistics.swift */,
-				C222792D201283DF008C53DB /* Stopwatch.swift */,
 				C2227929201283DF008C53DB /* Team.swift */,
-				C222792E201283DF008C53DB /* Trainer.swift */,
-				C2227928201283DF008C53DB /* Turnering.swift */,
-				C234B6AF201205D1005128F8 /* Guardian.swift */,
-				C234B6B0201205D1005128F8 /* Person.swift */,
-				C234B6AE201205D1005128F8 /* Player.swift */,
+				C20F17FE204A0DDA007F4208 /* Tournament.swift */,
 			);
 			name = Model;
 			path = SingleViewTestingSync/Model;
@@ -351,9 +362,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20F1803204B479F007F4208 /* turneringer.csv in Resources */,
 				C234B6772011FDC3005128F8 /* Assets.xcassets in Resources */,
+				C20F17FB204A05A7007F4208 /* kamper.csv in Resources */,
 				C234B67A2011FDC3005128F8 /* Main.storyboard in Resources */,
-				C234B6A420120062005128F8 /* oversikt.csv in Resources */,
+				C234B6A420120062005128F8 /* spillere.csv in Resources */,
+				C20F17FD204A0A8D007F4208 /* lag.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,24 +393,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C222793F201283ED008C53DB /* MatchDataSource.swift in Sources */,
-				C2227931201283DF008C53DB /* Turnering.swift in Sources */,
-				C234B6B3201205D1005128F8 /* Person.swift in Sources */,
 				C2227933201283DF008C53DB /* Practice.swift in Sources */,
 				C2227932201283DF008C53DB /* Team.swift in Sources */,
 				C222793D201283ED008C53DB /* DataSourceManager.swift in Sources */,
+				C2106A432054893500ACC4C0 /* Test.swift in Sources */,
 				C222793C201283ED008C53DB /* TeamDataSource.swift in Sources */,
-				C234B6B720120612005128F8 /* GuardianDataSource.swift in Sources */,
-				C2227936201283DF008C53DB /* Stopwatch.swift in Sources */,
-				C234B6B1201205D1005128F8 /* Player.swift in Sources */,
+				C2183837204DA3340030FEFB /* Constants.swift in Sources */,
+				C2106A452054895E00ACC4C0 /* Test2.swift in Sources */,
+				C2183839204DA3B50030FEFB /* GuardianDataSource.swift in Sources */,
 				C234B6752011FDC3005128F8 /* ViewController.swift in Sources */,
-				C234B6B5201205ED005128F8 /* FileDataSource.swift in Sources */,
-				C2227937201283DF008C53DB /* Trainer.swift in Sources */,
+				C234B6B5201205ED005128F8 /* FileReaderDataSource.swift in Sources */,
+				C20F1801204B44EA007F4208 /* TournamentDataSource.swift in Sources */,
+				C20F17FF204A0DDA007F4208 /* Tournament.swift in Sources */,
 				C2227935201283DF008C53DB /* MatchOfficial.swift in Sources */,
-				C234B6B2201205D1005128F8 /* Guardian.swift in Sources */,
 				C234B6AA201203E2005128F8 /* PlayerDataSource.swift in Sources */,
 				C234B6732011FDC3005128F8 /* AppDelegate.swift in Sources */,
 				C222793E201283ED008C53DB /* TrainerDataSource.swift in Sources */,
-				C2227934201283DF008C53DB /* LocalTeam.swift in Sources */,
 				C2227930201283DF008C53DB /* Match.swift in Sources */,
 				C222792F201283DF008C53DB /* Statistics.swift in Sources */,
 				C234B6B92012065D005128F8 /* CloudKitDataSource.swift in Sources */,
