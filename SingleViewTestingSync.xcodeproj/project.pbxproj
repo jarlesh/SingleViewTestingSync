@@ -17,14 +17,10 @@
 		C2183837204DA3340030FEFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2183836204DA3340030FEFB /* Constants.swift */; };
 		C2183839204DA3B50030FEFB /* GuardianDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2183838204DA3B50030FEFB /* GuardianDataSource.swift */; };
 		C222792520123335008C53DB /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C222792420123335008C53DB /* CloudKit.framework */; };
-		C222792F201283DF008C53DB /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227926201283DF008C53DB /* Statistics.swift */; };
 		C2227930201283DF008C53DB /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227927201283DF008C53DB /* Match.swift */; };
 		C2227932201283DF008C53DB /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227929201283DF008C53DB /* Team.swift */; };
-		C2227933201283DF008C53DB /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222792A201283DF008C53DB /* Practice.swift */; };
-		C2227935201283DF008C53DB /* MatchOfficial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222792C201283DF008C53DB /* MatchOfficial.swift */; };
 		C222793C201283ED008C53DB /* TeamDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227938201283ED008C53DB /* TeamDataSource.swift */; };
 		C222793D201283ED008C53DB /* DataSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2227939201283ED008C53DB /* DataSourceManager.swift */; };
-		C222793E201283ED008C53DB /* TrainerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222793A201283ED008C53DB /* TrainerDataSource.swift */; };
 		C222793F201283ED008C53DB /* MatchDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C222793B201283ED008C53DB /* MatchDataSource.swift */; };
 		C234B6732011FDC3005128F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6722011FDC3005128F8 /* AppDelegate.swift */; };
 		C234B6752011FDC3005128F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C234B6742011FDC3005128F8 /* ViewController.swift */; };
@@ -66,14 +62,10 @@
 		C2183836204DA3340030FEFB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C2183838204DA3B50030FEFB /* GuardianDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuardianDataSource.swift; sourceTree = "<group>"; };
 		C222792420123335008C53DB /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		C2227926201283DF008C53DB /* Statistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
 		C2227927201283DF008C53DB /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		C2227929201283DF008C53DB /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
-		C222792A201283DF008C53DB /* Practice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
-		C222792C201283DF008C53DB /* MatchOfficial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchOfficial.swift; sourceTree = "<group>"; };
 		C2227938201283ED008C53DB /* TeamDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDataSource.swift; sourceTree = "<group>"; };
 		C2227939201283ED008C53DB /* DataSourceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceManager.swift; sourceTree = "<group>"; };
-		C222793A201283ED008C53DB /* TrainerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainerDataSource.swift; sourceTree = "<group>"; };
 		C222793B201283ED008C53DB /* MatchDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchDataSource.swift; sourceTree = "<group>"; };
 		C234B66F2011FDC3005128F8 /* SingleViewTestingSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleViewTestingSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C234B6722011FDC3005128F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -224,7 +216,6 @@
 				C234B6A9201203E2005128F8 /* PlayerDataSource.swift */,
 				C2227938201283ED008C53DB /* TeamDataSource.swift */,
 				C20F1800204B44EA007F4208 /* TournamentDataSource.swift */,
-				C222793A201283ED008C53DB /* TrainerDataSource.swift */,
 			);
 			path = DataResources;
 			sourceTree = "<group>";
@@ -233,9 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				C2227927201283DF008C53DB /* Match.swift */,
-				C222792C201283DF008C53DB /* MatchOfficial.swift */,
-				C222792A201283DF008C53DB /* Practice.swift */,
-				C2227926201283DF008C53DB /* Statistics.swift */,
 				C2227929201283DF008C53DB /* Team.swift */,
 				C20F17FE204A0DDA007F4208 /* Tournament.swift */,
 			);
@@ -393,7 +381,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C222793F201283ED008C53DB /* MatchDataSource.swift in Sources */,
-				C2227933201283DF008C53DB /* Practice.swift in Sources */,
 				C2227932201283DF008C53DB /* Team.swift in Sources */,
 				C222793D201283ED008C53DB /* DataSourceManager.swift in Sources */,
 				C2106A432054893500ACC4C0 /* Test.swift in Sources */,
@@ -405,12 +392,9 @@
 				C234B6B5201205ED005128F8 /* FileReaderDataSource.swift in Sources */,
 				C20F1801204B44EA007F4208 /* TournamentDataSource.swift in Sources */,
 				C20F17FF204A0DDA007F4208 /* Tournament.swift in Sources */,
-				C2227935201283DF008C53DB /* MatchOfficial.swift in Sources */,
 				C234B6AA201203E2005128F8 /* PlayerDataSource.swift in Sources */,
 				C234B6732011FDC3005128F8 /* AppDelegate.swift in Sources */,
-				C222793E201283ED008C53DB /* TrainerDataSource.swift in Sources */,
 				C2227930201283DF008C53DB /* Match.swift in Sources */,
-				C222792F201283DF008C53DB /* Statistics.swift in Sources */,
 				C234B6B92012065D005128F8 /* CloudKitDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

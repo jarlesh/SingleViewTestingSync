@@ -16,7 +16,7 @@ class DataSourceManager
     static let sharedInstance = DataSourceManager()
 
     // Data
-    public let playersDataSource: PlayerDataSource
+    // public let playersDataSource: PlayerDataSource
     public let guardiansDataSource: GuardianDataSource
     public let matchesDataSource: MatchDataSource
     public let teamsDataSource: TeamDataSource
@@ -41,7 +41,7 @@ class DataSourceManager
         print("DataSourceManager init")
         guardiansDataSource = GuardianDataSource.sharedInstance
         matchesDataSource = MatchDataSource.sharedInstance
-        playersDataSource = PlayerDataSource.sharedInstance
+        // playersDataSource = PlayerDataSource.sharedInstance
         teamsDataSource = TeamDataSource.sharedInstance
         tournamentsDataSource = TournamentDataSource.sharedInstance
         
